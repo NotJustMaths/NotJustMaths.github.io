@@ -11,6 +11,5 @@ async function loadTables(table) {
 
 function parseData() {
     var parsedData = JSON.parse(data)
-
     console.log(parsedData.data[0].id)
 }
