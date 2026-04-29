@@ -1,6 +1,4 @@
-import { createClient } from 'npm:@supabase/supabase-js@2'
-
-const supabase = createClient(
+const supabase = window.supabase.createClient(
     'https://uzabwbqayjuhjdjgimct.supabase.co', 
     'sb_publishable_8En9l4Z_3-UPFZTAv2pE-A_HQPXEz3s'
 )
