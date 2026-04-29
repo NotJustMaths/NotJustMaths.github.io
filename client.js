@@ -7,12 +7,9 @@ async function loadTables(table) {
     const { data, error } = await supabase_client
         .from(table)
         .select();
-}
-
-function parseData() {
+    
     var parsedData = JSON.parse(data);
     console.log(parsedData);
 }
 
 loadTables();
-parseData();
