@@ -1,7 +1,7 @@
 import { createClient } from 'npm:@supabase/supabase-js@2'
 
 const supabase = createClient(
-    'https://notjustmaths.github.io', 
+    'https://uzabwbqayjuhjdjgimct.supabase.co', 
     'sb_publishable_8En9l4Z_3-UPFZTAv2pE-A_HQPXEz3s'
 )
 
