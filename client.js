@@ -13,3 +13,6 @@ function parseData() {
     var parsedData = JSON.parse(data);
     console.log(parsedData);
 }
+
+loadTables();
+parseData();
